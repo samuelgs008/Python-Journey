@@ -34,18 +34,22 @@ Claude creates the exercises and acts only as a **tutor**: it never writes the s
 
 | Level | Topic | What you will learn | Status |
 |---|---|---|---|
-| 01 | [Fundamentals](01-fundamentals/) | `print`, `input`, variables, types, `if`, `for`, `while`, strings | Available |
-| 02 | Data structures | lists, tuples, dictionaries, sets, list comprehensions | Locked |
-| 03 | Functions and modules | `def`, parameters, return values, scope, `import` | Locked |
-| 04 | Files and errors | reading/writing files, CSV, JSON, `try/except` | Locked |
-| 05 | Object-oriented programming | classes, objects, inheritance | Locked |
-| 06 | Tools | `pip`, virtual environments (`venv`), libraries | Locked |
-| 07 | NumPy | arrays and fast math | Locked |
-| 08 | Pandas | data tables, filtering, grouping | Locked |
-| 09 | Charts | Matplotlib and Seaborn: line, bar, scatter, histograms | Locked |
-| 10 | Machine learning | scikit-learn: regression, classification, model evaluation | Locked |
-| 11 | Neural networks | PyTorch: build and train your own neural network | Locked |
-| 12 | Final project | a complete AI project, from data to charts to model | Locked |
+| 01 | [Fundamentals](01-fundamentals/) | `print`, `input`, variables, types, `if`, `for`, `while` | Available |
+| 02 | Strings | concatenation, indexing, slicing, methods (`split`, `join`, `replace`...), formatting, immutability and how strings are stored | Locked |
+| 03 | Data structures | lists, tuples, dictionaries, sets, list comprehensions | Locked |
+| 04 | Functions and recursion | `def`, parameters, return values, scope, `import`, recursion: factorial, Fibonacci, Tower of Hanoi | Locked |
+| 05 | Algorithms | searching, sorting, greedy algorithms, dynamic programming, complexity (Big O) | Locked |
+| 06 | Files and errors | reading/writing files, CSV, JSON, `try/except` | Locked |
+| 07 | Object-oriented programming | classes, objects, inheritance | Locked |
+| 08 | Tools | `pip`, virtual environments (`venv`), libraries | Locked |
+| 09 | NumPy | arrays and fast math | Locked |
+| 10 | Pandas | data tables, filtering, grouping | Locked |
+| 11 | Charts | Matplotlib and Seaborn: line, bar, scatter, histograms | Locked |
+| 12 | Machine learning | scikit-learn: regression, classification, model evaluation | Locked |
+| 13 | Neural networks | PyTorch: build and train your own neural network | Locked |
+| 14 | Final project | a complete AI project, from data to charts to model | Locked |
+
+Levels 01–05 build the problem-solving and logic foundation (the kind of thing beecrowd trains). Levels 06–14 lead to data, charts and artificial intelligence.
 
 Levels unlock as you progress: when you finish one, ask Claude to create the next.
 
