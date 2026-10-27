@@ -64,3 +64,4 @@ Levels unlock as you progress: when you finish one, ask Claude to create the nex
 - [ ] 07 Sum Until Zero
 - [ ] 08 Count Vowels
 - [ ] 09 Challenge: FizzBuzz
+- [ ] 10 Types and Conversions
