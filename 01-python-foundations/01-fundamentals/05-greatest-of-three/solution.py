@@ -1,10 +1,11 @@
 # 05 - Greatest of Three
-A, B, C = map(int,input().split())
-if(A > B and A > C):
-    print(f"GREATEST = {A}")
-elif(B > C):
-    print(f"GREATEST = {B}")
-else:
-    print(f"GREATEST = {C}")
+number_follows = int(input())
+big = small = int(input())
+for i in range(int(number_follows - 1)):
+    n = int(input())
+    if n > big:
+        big = n
+    elif n < small:
+        small = n
 
-    #GR = MAX(A, B, C)
+print(f"GREATEST = {big}\nSMALLEST = {small}")

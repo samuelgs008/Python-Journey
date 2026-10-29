@@ -1,9 +1,3 @@
-# 01 — Fundamentals
-
-The first level of **Phase 1 — Python foundations**: 16 exercises, from `print` and `input` to loops, `//` / `%`, nested loops and input validation. Each folder has its own `README.md` (the problem) and a `solution.py` (my code).
-
-Every exercise also has a **⚡ Challenge** — a shorter or smarter version that teaches something extra. An exercise counts as **done** only when both the main problem *and* its challenge are solved.
-
 ## Progress
 
 | # | Exercise | Solved | Challenge |

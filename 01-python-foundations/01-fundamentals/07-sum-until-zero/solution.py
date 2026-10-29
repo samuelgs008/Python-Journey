@@ -1,7 +1,11 @@
 # 07 - Sum Until Zero
 total = 0
-n = int(input().lower())
-while n != 0:
+count = 0
+while (n := int(input())) != 0:
     total += n
-    n = int(input())
-print(f"SUM = {total}")
+    count += 1
+
+print(f"SUM = {total}\nCOUNT = {count}\nAVERAGE = {total / count:.2f}")
+
+# while (line := input()) != "leave":
+#    print(line)
