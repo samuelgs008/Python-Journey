@@ -65,3 +65,42 @@ QUOTIENT = -3.50
 3. To show 2 decimal places: `f"{value:.2f}"`.
 
 </details>
+
+## ⚡ Challenge
+
+Already solved it? Now try again: solve it with **one line to read** the input and **a single `print()`** for all four results.
+
+### Input
+
+The same as the main problem: two integers **A** and **B**, one per line (B ≠ 0).
+
+### Output
+
+The same four lines as the main problem: `SUM`, `DIFFERENCE`, `PRODUCT` and `QUOTIENT` (with 2 decimal places).
+
+### Sample
+
+<table>
+<tr><th>Sample Input</th><th>Sample Output</th></tr>
+<tr>
+<td><pre>
+10
+4
+</pre></td>
+<td><pre>
+SUM = 14
+DIFFERENCE = 6
+PRODUCT = 40
+QUOTIENT = 2.50
+</pre></td>
+</tr>
+</table>
+
+<details>
+<summary>💡 Hints</summary>
+
+1. You can assign two variables in one line: `x, y = 1, 2`.
+2. `"\n"` inside an f-string breaks the line.
+3. `A / B` already gives a `float`. Is the `float(...)` needed?
+
+</details>

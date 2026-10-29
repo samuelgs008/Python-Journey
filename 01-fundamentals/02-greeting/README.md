@@ -41,3 +41,38 @@ Hello, Samuel! You are 18 years old.
 2. f-strings let you put variables inside text: `f"Hi, {name}"`.
 
 </details>
+
+## ⚡ Challenge
+
+Already solved it? Now try again: solve it in **a single line**, without creating any variables.
+
+### Input
+
+The same as the main problem: a name on the first line and the age **A** on the second.
+
+### Output
+
+Print `Hello, NAME! You are A years old.`
+
+### Sample
+
+<table>
+<tr><th>Sample Input</th><th>Sample Output</th></tr>
+<tr>
+<td><pre>
+Ana
+20
+</pre></td>
+<td><pre>
+Hello, Ana! You are 20 years old.
+</pre></td>
+</tr>
+</table>
+
+<details>
+<summary>💡 Hints</summary>
+
+1. Anything can go inside the `{}` of an f-string, even a call to `input()`.
+2. Do you really need `int()` if you only print the age?
+
+</details>

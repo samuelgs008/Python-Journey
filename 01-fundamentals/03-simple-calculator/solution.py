@@ -1,8 +1,5 @@
 # 03 - Simple Calculator
-A = int(input())
-B = int(input())
+A,B = int(input()),int(input())
 
-print(f"SUM = {A + B}")
-print(f"DIFERENCE = {A - B}")
-print(f"PRODUCT = {A * B}")
-print(f"QUOTIENT = {float(A / B):.2f}")
+
+print(f"SUM = {A + B}\nDIFERENCE = {A - B}\nPRODUCT = {A * B}\nQUOTIENT = {(A / B):.2f}")

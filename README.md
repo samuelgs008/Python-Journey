@@ -1,6 +1,6 @@
 # Python-Journey
 
-A Python journey made with [Claude](https://claude.com/claude-code) to study Python from scratch, beecrowd-style: each exercise has a problem statement, input/output descriptions and sample cases. The path goes from the basics all the way to charts and artificial intelligence, one exercise at a time.
+A Python journey made with [Claude](https://claude.com/claude-code) to study Python from scratch. The exercises are inspired by beecrowd: each one has a problem statement, input/output descriptions and sample cases. They don't follow beecrowd 100%, though: some of them, especially in the later levels, are bigger projects. The path goes from the basics all the way to charts and artificial intelligence, one exercise at a time.
 
 Claude creates the exercises and acts only as a **tutor**: it never writes the solutions or gives the answers. All the code in the `solution.py` files is written by me. When I get stuck, Claude gives hints, explains concepts and errors, and reviews my code after I solve it.
 
@@ -15,7 +15,16 @@ Claude creates the exercises and acts only as a **tutor**: it never writes the s
    ```
 
 4. Type the **Sample Input** and check that what appears is **exactly the same** as the **Sample Output**.
-5. Works for every sample? Check it off in the progress list below and move on to the next one.
+5. Works for every sample? Now try the **⚡ Challenge** at the end of the README. It teaches something new and asks for better, shorter code.
+6. Check it off in the progress list below and move on to the next one.
+
+### Solving is only half of it
+
+The first solution that works is rarely the best one. After solving, always ask yourself:
+
+- Can I write it with **fewer lines**, without making it hard to read?
+- Is there a part I **repeat**? Can a loop or a variable remove it?
+- Would my code still work if the problem **grew** (more numbers, more rules)?
 
 ### Important (just like beecrowd)
 
@@ -55,9 +64,9 @@ Levels unlock as you progress: when you finish one, ask Claude to create the nex
 
 ## My progress — Level 01
 
-- [ ] 01 Hello World
-- [ ] 02 Greeting
-- [ ] 03 Simple Calculator
+- [x] 01 Hello World
+- [x] 02 Greeting
+- [x] 03 Simple Calculator
 - [ ] 04 Even or Odd
 - [ ] 05 Greatest of Three
 - [ ] 06 Multiplication Table

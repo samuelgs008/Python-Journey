@@ -50,3 +50,68 @@ GREATEST = -3
 3. Use `if` / `elif` / `else`.
 
 </details>
+
+## ⚡ Challenge
+
+Three numbers is easy. What about **any** amount? Here you learn the **"greatest so far"** pattern, one of the most used ideas in programming.
+
+Rules: still no `max()` or `min()`, and no lists. Your code must work the same for 1 number or 100 numbers.
+
+### Input
+
+The first line contains an integer **N** (1 ≤ N ≤ 100). Then come **N** integers, one per line.
+
+### Output
+
+Print two lines: `GREATEST = X` and `SMALLEST = Y`.
+
+### Samples
+
+<table>
+<tr><th>Sample Input</th><th>Sample Output</th></tr>
+<tr>
+<td><pre>
+3
+4
+9
+2
+</pre></td>
+<td><pre>
+GREATEST = 9
+SMALLEST = 2
+</pre></td>
+</tr>
+<tr>
+<td><pre>
+4
+-8
+-3
+-5
+-10
+</pre></td>
+<td><pre>
+GREATEST = -3
+SMALLEST = -10
+</pre></td>
+</tr>
+<tr>
+<td><pre>
+1
+7
+</pre></td>
+<td><pre>
+GREATEST = 7
+SMALLEST = 7
+</pre></td>
+</tr>
+</table>
+
+<details>
+<summary>💡 Hints</summary>
+
+1. Keep a variable with the greatest number **seen so far**. For each new number, ask only: "is this one bigger?"
+2. Why not start with `greatest = 0`? Look at sample 2.
+3. The first number you read is a perfect starting value for both variables.
+4. `for _ in range(N):` repeats N times. The `_` means "I don't need the counter".
+
+</details>

@@ -83,3 +83,48 @@ bool(A) = True
 4. Look at sample 3: why does `C` show `007`, but `int(C) * 2` gives `14`?
 
 </details>
+
+## ⚡ Challenge
+
+Here you learn a hidden f-string trick that prints **the expression and its value** together, very useful to debug code.
+
+Rules: **a single `print()`** for all seven lines, and don't write any label like `"A = "` or `"int(C) * 2 = "` by hand.
+
+### Input
+
+The same as the main problem: an integer **A**, a decimal number **B** and a text **C** made only of digits, one per line.
+
+### Output
+
+The same seven lines as the main problem.
+
+### Sample
+
+<table>
+<tr><th>Sample Input</th><th>Sample Output</th></tr>
+<tr>
+<td><pre>
+7
+2.5
+42
+</pre></td>
+<td><pre>
+A = 7 -> int
+B = 2.5 -> float
+C = 42 -> str
+A + B = 9.5 -> float
+C * 2 = 4242
+int(C) * 2 = 84
+bool(A) = True
+</pre></td>
+</tr>
+</table>
+
+<details>
+<summary>💡 Hints</summary>
+
+1. Try this in the terminal: `x = 5`, then `print(f"{x = }")`. Now try `print(f"{x * 2 = }")`.
+2. With text, quotes appear: `C = '42'`. Add `!s` before the `}` and see what changes.
+3. `print()` accepts many values separated by commas, and `sep` decides what goes between them: `print("a", "b", sep="\n")`.
+
+</details>

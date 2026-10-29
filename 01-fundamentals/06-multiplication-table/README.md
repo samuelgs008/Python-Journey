@@ -40,3 +40,53 @@ Print 10 lines in the format `I x N = R`, for I from 1 to 10.
 2. `range` stops **before** the second number.
 
 </details>
+
+## ⚡ Challenge
+
+Now print the **whole** multiplication table as a grid, with the columns lined up. Here you learn **nested loops** and how to **align text** with f-strings.
+
+Rules: don't count spaces by hand. Let the f-string do the alignment.
+
+### Input
+
+An integer **N** (1 ≤ N ≤ 12).
+
+### Output
+
+Print N lines. Line I has the results of I x 1, I x 2, ..., I x N. Each number takes exactly **4 characters**, aligned to the right.
+
+### Samples
+
+<table>
+<tr><th>Sample Input</th><th>Sample Output</th></tr>
+<tr>
+<td><pre>
+3
+</pre></td>
+<td><pre>
+   1   2   3
+   2   4   6
+   3   6   9
+</pre></td>
+</tr>
+<tr>
+<td><pre>
+4
+</pre></td>
+<td><pre>
+   1   2   3   4
+   2   4   6   8
+   3   6   9  12
+   4   8  12  16
+</pre></td>
+</tr>
+</table>
+
+<details>
+<summary>💡 Hints</summary>
+
+1. A `for` can go inside another `for`. The inner one runs **completely** on each turn of the outer one.
+2. `print(x, end="")` doesn't break the line. An empty `print()` only breaks it.
+3. `f"{7:4}"` gives `"   7"`. Also try `f"{42:<4}"` and `f"{42:^4}"` in the terminal.
+
+</details>

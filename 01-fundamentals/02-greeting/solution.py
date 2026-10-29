@@ -1,6 +1,3 @@
 # 02 - Greeting
 
-name = input()
-age = int(input())
-
-print(f"Hello, {name}! You are {age} years old.")
+print(f"Hello, {input()}! You are {int(input())} years old.")
