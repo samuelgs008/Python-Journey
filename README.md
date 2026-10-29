@@ -1,6 +1,6 @@
-# Python-Journey
+# Python-Journey 🐍
 
-A Python journey made with [Claude](https://claude.com/claude-code) to study Python from scratch. The exercises are inspired by beecrowd: each one has a problem statement, input/output descriptions and sample cases. They don't follow beecrowd 100%, though: some of them, especially in the later levels, are bigger projects. The path goes from the basics all the way to charts and artificial intelligence, one exercise at a time.
+A Python journey made with [Claude](https://claude.com/claude-code) to study Python from scratch. The exercises are inspired by beecrowd: each one has a problem statement, input/output descriptions and sample cases. They don't follow beecrowd 100%, though: some of them, especially in the later levels, are bigger projects. The path goes from the basics all the way to automation and artificial intelligence applied to real processes, one exercise at a time.
 
 Claude creates the exercises and acts only as a **tutor**: it never writes the solutions or gives the answers. All the code in the `solution.py` files is written by me. When I get stuck, Claude gives hints, explains concepts and errors, and reviews my code after I solve it.
 
@@ -11,7 +11,7 @@ Claude creates the exercises and acts only as a **tutor**: it never writes the s
 3. Run it in the terminal (**Ctrl + '** in VS Code):
 
    ```
-   python 01-fundamentals/02-greeting/solution.py
+   python 01-python-foundations/01-fundamentals/02-greeting/solution.py
    ```
 
 4. Type the **Sample Input** and check that what appears is **exactly the same** as the **Sample Output**.
@@ -41,28 +41,131 @@ The first solution that works is rarely the best one. After solving, always ask 
 
 ## Roadmap
 
-| Level | Topic | What you will learn | Status |
-|---|---|---|---|
-| 01 | [Fundamentals](01-fundamentals/) | `print`, `input`, variables, types, `if`, `for`, `while` | Available |
-| 02 | Strings | concatenation, indexing, slicing, methods (`split`, `join`, `replace`...), formatting, immutability and how strings are stored | Locked |
-| 03 | Data structures | lists, tuples, dictionaries, sets, list comprehensions | Locked |
-| 04 | Functions and recursion | `def`, parameters, return values, scope, `import`, recursion: factorial, Fibonacci, Tower of Hanoi | Locked |
-| 05 | Algorithms | searching, sorting, greedy algorithms, dynamic programming, complexity (Big O) | Locked |
-| 06 | Files and errors | reading/writing files, CSV, JSON, `try/except` | Locked |
-| 07 | Object-oriented programming | classes, objects, inheritance | Locked |
-| 08 | Tools | `pip`, virtual environments (`venv`), libraries | Locked |
-| 09 | NumPy | arrays and fast math | Locked |
-| 10 | Pandas | data tables, filtering, grouping | Locked |
-| 11 | Charts | Matplotlib and Seaborn: line, bar, scatter, histograms | Locked |
-| 12 | Machine learning | scikit-learn: regression, classification, model evaluation | Locked |
-| 13 | Neural networks | PyTorch: build and train your own neural network | Locked |
-| 14 | Final project | a complete AI project, from data to charts to model | Locked |
+The goal: **improve real processes with Python and AI, and learn to build AI**. The journey is split into phases, and each phase ends with a **project** for my portfolio.
 
-Levels 01–05 build the problem-solving and logic foundation (the kind of thing beecrowd trains). Levels 06–14 lead to data, charts and artificial intelligence.
+| Phase | Focus | Project |
+|---|---|---|
+| [1 — Python foundations](01-python-foundations/) | the language itself: syntax, data, functions, files, OOP | folder organizer |
+| 2 — My first AI | call an LLM from Python | terminal chatbot |
+| 3 — Coding like a developer | the tools professionals use: Git, tests, logging | chatbot with tests |
+| 4 — Automation | make Python do repetitive work | a manual report, automated |
+| 5 — Measuring processes | data, SQL, statistics and dashboards | process dashboard |
+| 6 — AI in processes | LLMs that read documents and act | document-reading assistant |
+| 7 — Building AI | train my own machine learning models | predictive model |
+| Final | everything together | end-to-end AI automation |
 
-Levels unlock as you progress: when you finish one, ask Claude to create the next.
+Each phase below opens with the details.
 
-## My progress — Level 01
+<details>
+<summary><b>Phase 1 — Python foundations</b></summary>
+
+| Level | Topic | What you will learn |
+|---|---|---|
+| 01 | [Fundamentals](01-python-foundations/01-fundamentals/) | `print`, `input`, variables, types, `if`, `for`, `while`, `//` and `%`, `range` with steps, nested loops, `break` and `continue`, input validation |
+| 02 | Strings | concatenation, indexing, slicing, methods (`split`, `join`, `replace`...), formatting, immutability |
+| 03 | Data structures | lists, tuples, dictionaries, sets, comprehensions |
+| 04 | Functions | `def`, parameters, return values, scope, `import`, `lambda`, `*args`/`**kwargs`, generators, decorators, type hints |
+| 05 | Files and errors | reading/writing files, CSV, JSON, `try`/`except` |
+| 06 | Object-oriented programming | classes, objects, inheritance |
+
+🎯 **Project:** a tool that organizes the files in a folder automatically.
+
+</details>
+
+<details>
+<summary><b>Phase 2 — My first AI</b></summary>
+
+| Level | Topic | What you will learn |
+|---|---|---|
+| 07 | APIs and my first AI | HTTP, `requests`, JSON, calling an LLM API, writing prompts, getting structured (JSON) answers |
+
+🎯 **Project:** a terminal chatbot that remembers the conversation.
+
+</details>
+
+<details>
+<summary><b>Phase 3 — Coding like a developer</b></summary>
+
+| Level | Topic | What you will learn |
+|---|---|---|
+| 08 | Tools | `pip`, virtual environments (`venv`), Git branches, tests with `pytest`, logging, the debugger |
+
+🎯 **Project:** refactor the chatbot with real tests.
+
+</details>
+
+<details>
+<summary><b>Phase 4 — Automation</b></summary>
+
+| Level | Topic | What you will learn |
+|---|---|---|
+| 09 | Office automation | Excel (`openpyxl`), PDF, e-mail, scheduling scripts to run on their own |
+| 10 | Web automation | consuming public APIs, basic web scraping |
+
+🎯 **Project:** a report that is done by hand today, generated on its own.
+
+</details>
+
+<details>
+<summary><b>Phase 5 — Measuring processes</b></summary>
+
+| Level | Topic | What you will learn |
+|---|---|---|
+| 11 | SQL | SQLite, `SELECT`, `JOIN`, aggregations |
+| 12 | NumPy and math | arrays, vectors, matrices, the math behind AI |
+| 13 | Pandas and charts | data tables, filtering, grouping, Matplotlib and Seaborn |
+| 14 | Statistics and dashboards | mean, variation, control charts, dashboards with Streamlit |
+
+🎯 **Project:** a dashboard with a process's indicators (time, bottlenecks, errors).
+
+</details>
+
+<details>
+<summary><b>Phase 6 — AI in processes</b></summary>
+
+| Level | Topic | What you will learn |
+|---|---|---|
+| 15 | LLMs in practice | classify text, extract data from documents, structured output |
+| 16 | Agents and RAG | AI that runs tasks and reads internal documents to answer |
+
+🎯 **Project:** an assistant that reads e-mails or documents and fills a spreadsheet.
+
+</details>
+
+<details>
+<summary><b>Phase 7 — Building AI</b></summary>
+
+| Level | Topic | What you will learn |
+|---|---|---|
+| 17 | Machine learning | scikit-learn: prediction, classification, anomaly detection |
+| 18 | Neural networks | PyTorch: build and train your own neural network |
+
+🎯 **Project:** a model that predicts something about the process (delays, volume, demand).
+
+</details>
+
+<details>
+<summary><b>Final project</b></summary>
+
+A complete AI automation, end to end, with the **before and after measured**.
+
+</details>
+
+## Progress
+
+| Phase | Status |
+|---|---|
+| 1 — Python foundations | 🟢 in progress |
+| 2 — My first AI | ⚪ not started |
+| 3 — Coding like a developer | ⚪ not started |
+| 4 — Automation | ⚪ not started |
+| 5 — Measuring processes | ⚪ not started |
+| 6 — AI in processes | ⚪ not started |
+| 7 — Building AI | ⚪ not started |
+| Final | ⚪ not started |
+
+<details>
+<summary><b>Phase 1 · Fundamentals — 3 / 16 done</b></summary>
 
 - [x] 01 Hello World
 - [x] 02 Greeting
@@ -74,3 +177,11 @@ Levels unlock as you progress: when you finish one, ask Claude to create the nex
 - [ ] 08 Count Vowels
 - [ ] 09 Challenge: FizzBuzz
 - [ ] 10 Types and Conversions
+- [ ] 11 Time Converter
+- [ ] 12 Countdown
+- [ ] 13 Star Triangle
+- [ ] 14 Grade Validator
+- [ ] 15 Prime Number
+- [ ] 16 Final Challenge: Reverse Number
+
+</details>
