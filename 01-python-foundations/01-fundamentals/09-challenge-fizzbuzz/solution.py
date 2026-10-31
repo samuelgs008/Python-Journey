@@ -1,9 +1,3 @@
 # 09 - 🏆 Challenge: FizzBuzz
-n = int(input())
-for i in range(1,n+1):
-    s = ""
-    if i % 3 == 0:
-        s += "Fizz"
-    if i % 5 == 0:
-        s += "Buzz"
-    print(s or i)
+a,b = map(int,input().split())
+for i in range(a,b+1): print("Fizz" * (i % 3 == 0) + "Buzz" * (i % 5 == 0) + "Bazz" * (i % 7 == 0) or i)

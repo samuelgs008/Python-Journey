@@ -1,8 +1,9 @@
 # 08 - Count Vowels
-
-st = str(input().lower())
+st = str(input().lower().replace(" ", ""))
 vowel_count = 0
-for letra in st:
-    if letra in "aeiou":    
-        vowel_count += 1
-print(vowel_count)
+consonant_count = 0
+for letra in st:  
+    vowel_count += letra in "aeiou"
+    consonant_count = len(st) - vowel_count
+print(f"VOWELS = {vowel_count}")
+print(f"CONSONANTS = {consonant_count}")
